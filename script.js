@@ -9,3 +9,7 @@ setInterval(()=>{
         counter.innerText = count;
     }
 },1)
+
+setTimeout( () => {
+    follower.innerText = "Follwers on Instagram!"
+}, 3000)
